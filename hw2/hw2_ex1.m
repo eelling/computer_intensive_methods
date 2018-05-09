@@ -47,9 +47,6 @@ for j = 1:M-1
     t = RWMH(t,lam,j,n,d,rho,coal_mine);
 end
 
-% tau = ceil(mean(t(:,burn_in:M),2);
-
-% displaying lambda intensities
 
 figure(1)
 for i = 1:d
